@@ -155,14 +155,14 @@ const Hero = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl blur-2xl opacity-30 transform rotate-6"></div>
               <img
-                src="/src/assets/image.png"
+                src="/image.png"
                 alt="Yashasvi Modi"
                 className="relative w-64 h-64 lg:w-80 lg:h-80 object-cover rounded-3xl shadow-2xl"
               />
             </motion.div>
           </motion.div>
         </div>
-      </div>
+      </div>                            
 
       {/* Scroll Indicator */}
       <motion.div

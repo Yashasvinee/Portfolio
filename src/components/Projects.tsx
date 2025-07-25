@@ -11,17 +11,17 @@ const Projects = () => {
 
   const [selectedCategory, setSelectedCategory] = useState('All');
 
-  const categories = ['All', 'Web Development', 'Java Applications', 'Database Projects', 'Algorithms'];
+  const categories = [];
 
   const projects = [
     {
-      title: "E-Commerce Management System",
-      description: "A comprehensive e-commerce platform built with Java and MySQL featuring user authentication, product catalog, shopping cart, and order management.",
-      category: "Java Applications",
-      technologies: ["Java", "MySQL", "Swing", "JDBC"],
+      title: "Number-Ninjas",
+      description: "Number Ninja is an AI-powered interactive math game designed to make learning fun through puzzles, quizzes, and Tic-Tac-Toe challenges.It uses AI to track player performance and dynamically adjust difficulty, ensuring a personalized and engaging experience.",
+      category: "Web Development",
+      technologies: ["HTML5", "CSS3", "JavaScript", "TensorFlow.js","Canvas API"],
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Yashasvinee/Portfolio",
+      demo: "portfolio-swart-theta-96.vercel.app",
       color: "from-blue-500 to-blue-600"
     },
     // {
